@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Nulshock';
+    src: url('Nulshock-Bold.woff2') format('woff2'),
+        url('Nulshock-Bold.woff') format('woff'),
+        url('Nulshock-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
