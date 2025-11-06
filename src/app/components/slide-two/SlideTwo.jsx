@@ -61,7 +61,7 @@ export default function SlideTwo() {
                   {
                     DATA_TWO.map((item, i) => {
                       return <p key={i}
-                        className='w-[60%] h-[100%] text-[1.8rem] font-bold flex text-center justify-center items-center
+                        className='w-[60%] h-[100%] text-[1.4rem]  font-bold flex text-center justify-center items-center
                       absolute'
 
                         style={{
@@ -107,12 +107,12 @@ export default function SlideTwo() {
                   {
                     DATA_TWO.map((item, i) => {
                       return <p key={i}
-                        className='w-[60%] h-[100%] text-[1rem] flex text-center justify-center items-center
+                        className='w-[70%] h-[80%] text-[0.8rem] flex text-center justify-center items-center
                       absolute'
 
                         style={{
                           transition: "0.5s ease-in-out",
-                          opacity: i === cardId ? "1" : "0",
+                          opacity: i === cardId ? "0.8" : "0",
                         }}
                       >{item.details[0]}</p>
                     })

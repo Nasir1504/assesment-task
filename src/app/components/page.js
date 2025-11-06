@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SlideOne from "./components/slide-one/SlideOne";
+import SlideOne from "./slide-one/SlideOne";
 
 export default function Home() {
   return (

@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 import SlideOne from "./components/slide-one/SlideOne";
 import SlideTwo from "./components/slide-two/SlideTwo";

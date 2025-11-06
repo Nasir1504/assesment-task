@@ -100,8 +100,8 @@ export default function SlideOne() {
                             <div
                                 className='w-[80%] h-[20%] flex flex-col justify-center items-left gap-4 bg-[#A5E003] relative overflow-hidden text-[#1A2B6D]'
                             >
-                                <h1 className='font-bold text-[3rem] leading-none'>Why BPMP</h1>
-                                <p>Custom Solutions for Your Capital Projects</p>
+                                <h1 className='font-bold text-[3.5rem] leading-none'>Why BPMP ?</h1>
+                                <p className='text-[0.8rem]'>Custom Solutions for Your Capital Projects</p>
                             </div>
                             <div
                                 className='w-[100%] h-[80%] flex flex-col justify-start items-center gap-4 bg-[#A5E003] relative'
@@ -109,7 +109,7 @@ export default function SlideOne() {
 
                                 {
                                     DATA_ONE.map((item, i) => {
-                                        return <div key={i} className='w-[80%] h-auto py-[2rem] bg-white text-[#1A2B6D] text-[1rem] px-[1em] flex gap-4 rounded-md cursor-pointer'
+                                        return <div key={i} className='w-[80%] h-auto py-[2rem] bg-white text-[#1A2B6D] text-[0.8rem] px-[1em] flex gap-4 rounded-md cursor-pointer'
                                             onClick={() => handleClick(i)}
                                             style={{
                                                 transition: "0.2s ease-in-out",
@@ -118,7 +118,7 @@ export default function SlideOne() {
                                             }}
                                         >
 
-                                            <div className='text-[1.4rem] font-bold'>{String(i + 1).padStart(2, "0")}</div>
+                                            <div className='text-[1.2rem] font-bold'>{String(i + 1).padStart(2, "0")}</div>
                                             <div className='flex flex-col gap-4'>
                                                 {item.details.map((item, i) => {
                                                     return <p key={i}>{item}</p>
